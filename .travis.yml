@@ -5,6 +5,7 @@ python:
 install:
     - pip install selenium
     - pip install behave
+    - pip install requests
 script:
   - cd kent-search-val
   - behave
