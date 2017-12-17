@@ -6,4 +6,7 @@ install:
     - pip install selenium
     - pip install behave
 script:
+  - cd kent-search-val
   - behave
+  - cd ../travis-ci-example
+  - python3 test_calc.py
